@@ -4,6 +4,5 @@ python:
     - "2.7"
 
 script:
-    - echo $DIR, 'pwd'
-    - py.test -x -vv -s 'pwd'/test_mathfunc.py
+    - py.test -x -vv -s test_mathfunc.py
 
